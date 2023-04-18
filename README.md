@@ -1,7 +1,7 @@
 ### Initialize Chain
 
 ```bash
-git clone https://github.com/tenet-org/mainnet.git ~/.tenetd
+git clone https://github.com/tenet-org/tenet-mainnet.git ~/.tenetd
 ```
 
 ```bash
