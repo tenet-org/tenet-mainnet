@@ -1,0 +1,807 @@
+{
+  "genesis_time": "2023-04-17T09:45:19.160552Z",
+  "chain_id": "tenet_1559-1",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "20000000",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {}
+  },
+  "app_hash": "",
+  "app_state": {
+    "alliance": {
+      "assets": [],
+      "delegations": [],
+      "params": {
+        "last_take_rate_claim_time": "0001-01-01T00:00:00Z",
+        "reward_delay_time": "604800s",
+        "take_rate_claim_interval": "300s"
+      },
+      "redelegations": [],
+      "reward_weight_change_snaphots": [],
+      "undelegations": [],
+      "validator_infos": []
+    },
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "tenet1tadpxfas2k9vtcq43l43jed6gvpt7qpnf3t9gn",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "tenet190732cta45n0e0rjxdzx9zae4rjhsr5v554fl2",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "tenet14naq8f6m9rj9p23mqmt2pjcslmhrrwudv0gpmw",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "tenet1sjlmyyf6w4628w47qm6yn0e2t6h4xdmjju7r3p",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "tenet1yz3h6jv5r8c4fllrsp59pwc5f5fnht3fxh0dfu",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "tenet1zgx4990efdm4guuapceadau22pp5gx6nhf8y0d",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "tenet1zgx4990efdm4guuapceadau22pp5gx6nhf8y0d",
+          "coins": [
+            {
+              "denom": "atenet",
+              "amount": "1199499999980000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "tenet1yz3h6jv5r8c4fllrsp59pwc5f5fnht3fxh0dfu",
+          "coins": [
+            {
+              "denom": "atenet",
+              "amount": "100000004000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "tenet190732cta45n0e0rjxdzx9zae4rjhsr5v554fl2",
+          "coins": [
+            {
+              "denom": "atenet",
+              "amount": "100000004000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "tenet1tadpxfas2k9vtcq43l43jed6gvpt7qpnf3t9gn",
+          "coins": [
+            {
+              "denom": "atenet",
+              "amount": "100000004000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "tenet1sjlmyyf6w4628w47qm6yn0e2t6h4xdmjju7r3p",
+          "coins": [
+            {
+              "denom": "atenet",
+              "amount": "100000004000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "tenet14naq8f6m9rj9p23mqmt2pjcslmhrrwudv0gpmw",
+          "coins": [
+            {
+              "denom": "atenet",
+              "amount": "100000004000000000000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "atenet",
+          "amount": "1200000000000000000000000000"
+        }
+      ],
+      "denom_metadata": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "claims": {
+      "claims_records": [],
+      "params": {
+        "airdrop_start_time": "0001-01-01T00:00:00Z",
+        "authorized_channels": [
+          "channel-0",
+          "channel-3"
+        ],
+        "claims_denom": "aevmos",
+        "duration_of_decay": "5259600s",
+        "duration_until_decay": "2629800s",
+        "enable_claims": false,
+        "evm_channels": [
+          "channel-2"
+        ]
+      }
+    },
+    "crisis": {
+      "constant_fee": {
+        "amount": "500000000000000000000",
+        "denom": "atenet"
+      }
+    },
+    "distribution": {
+      "delegator_starting_infos": [],
+      "delegator_withdraw_infos": [],
+      "fee_pool": {
+        "community_pool": []
+      },
+      "outstanding_rewards": [],
+      "params": {
+        "base_proposer_reward": "0",
+        "bonus_proposer_reward": "0",
+        "community_tax": "0",
+        "withdraw_addr_enabled": true
+      },
+      "previous_proposer": "",
+      "validator_accumulated_commissions": [],
+      "validator_current_rewards": [],
+      "validator_historical_rewards": [],
+      "validator_slash_events": []
+    },
+    "epochs": {
+      "epochs": [
+        {
+          "current_epoch": "0",
+          "current_epoch_start_height": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "duration": "604800s",
+          "epoch_counting_started": false,
+          "identifier": "week",
+          "start_time": "0001-01-01T00:00:00Z"
+        },
+        {
+          "current_epoch": "0",
+          "current_epoch_start_height": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "duration": "86400s",
+          "epoch_counting_started": false,
+          "identifier": "day",
+          "start_time": "0001-01-01T00:00:00Z"
+        }
+      ]
+    },
+    "erc20": {
+      "params": {
+        "enable_erc20": true,
+        "enable_evm_hook": true
+      },
+      "token_pairs": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "evm": {
+      "accounts": [],
+      "params": {
+        "allow_unprotected_txs": false,
+        "chain_config": {
+          "arrow_glacier_block": "0",
+          "berlin_block": "0",
+          "byzantium_block": "0",
+          "cancun_block": "0",
+          "constantinople_block": "0",
+          "dao_fork_block": "0",
+          "dao_fork_support": true,
+          "eip150_block": "0",
+          "eip150_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "eip155_block": "0",
+          "eip158_block": "0",
+          "gray_glacier_block": "0",
+          "homestead_block": "0",
+          "istanbul_block": "0",
+          "london_block": "0",
+          "merge_netsplit_block": "0",
+          "muir_glacier_block": "0",
+          "petersburg_block": "0",
+          "shanghai_block": "0"
+        },
+        "enable_call": true,
+        "enable_create": true,
+        "evm_denom": "atenet",
+        "extra_eips": []
+      }
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "feemarket": {
+      "block_gas": "0",
+      "params": {
+        "base_fee": "20000000000",
+        "base_fee_change_denominator": 8,
+        "elasticity_multiplier": 4,
+        "enable_height": "0",
+        "min_gas_multiplier": "0.500000000000000000",
+        "min_gas_price": "20000000000.000000000000000000",
+        "no_base_fee": false
+      }
+    },
+    "genutil": {
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator1",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "tenet1tadpxfas2k9vtcq43l43jed6gvpt7qpnf3t9gn",
+                "validator_address": "tenetvaloper1tadpxfas2k9vtcq43l43jed6gvpt7qpnrj3yua",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "NSHAR1q2V87tECuSgggmbRh2gXXjD6tDYGAMxrXtF28="
+                },
+                "value": {
+                  "denom": "atenet",
+                  "amount": "100000000000000000000000"
+                }
+              }
+            ],
+            "memo": "9e6d9040cd29e16287c66eab64dd1da92c231d95@172.16.2.65:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A1nLrMGIeTlTGhD6U0C5JegworcTwb1lUh33u65TGKAG"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "atenet",
+                  "amount": "4000000000000000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "HWIfrLAjSZrd2ugfyZalytkG9L6JGgqVaLK/xyPWu28n5eu+ImqoLxzs6uKUZ2bcrm/anVn1GQId6hL2kli2nQE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator2",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "tenet190732cta45n0e0rjxdzx9zae4rjhsr5v554fl2",
+                "validator_address": "tenetvaloper190732cta45n0e0rjxdzx9zae4rjhsr5v7h0gty",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "OlHuDZbC7HU1eY56A5dPn1Wv/w/F5vlnCaFyJKX09S8="
+                },
+                "value": {
+                  "denom": "atenet",
+                  "amount": "100000000000000000000000"
+                }
+              }
+            ],
+            "memo": "9054705b4c58a9ba7853a3e43ee1f0cf900b4bfb@172.16.2.65:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A46T5UrepwN7+3bto9V6IqI/tpvfr14IQ8DFwcWagBG+"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "atenet",
+                  "amount": "4000000000000000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "Gb+5w8LLh0FheRPBRI9Rv0uT7SW2HoRzduVo+jB3GdtZEe2f8j7X8+AN7HPij3C9Xvm/zMb2XT9XYYmTxS0PTAA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator3",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "tenet14naq8f6m9rj9p23mqmt2pjcslmhrrwudv0gpmw",
+                "validator_address": "tenetvaloper14naq8f6m9rj9p23mqmt2pjcslmhrrwudxvjq0q",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "0x4GQ7B0HFwANqJDvj0ok5skj4N519kNCsu5ZE9YSu0="
+                },
+                "value": {
+                  "denom": "atenet",
+                  "amount": "100000000000000000000000"
+                }
+              }
+            ],
+            "memo": "79d85e533ed411e5c227ec91ec382560b35855a6@172.16.2.65:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A2MmHT2nf8Gs6+R6kvjn0GK/O2VMyPcRDUZUov8AmExN"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "atenet",
+                  "amount": "4000000000000000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "w+TG6AtTwxgAmFDTFWEZddwbF4bf10SW5MmwqssiEOwgt+aYmRGC0VVGk3vgLOubDUfr8KBAHV55A+92gtTtgwE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator4",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "tenet1sjlmyyf6w4628w47qm6yn0e2t6h4xdmjju7r3p",
+                "validator_address": "tenetvaloper1sjlmyyf6w4628w47qm6yn0e2t6h4xdmjclyz90",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "A+FZ0QrHXOOTA6sy6dYqZU1RHUcpY6iEjQbzYjUSpDs="
+                },
+                "value": {
+                  "denom": "atenet",
+                  "amount": "100000000000000000000000"
+                }
+              }
+            ],
+            "memo": "ca9244bb137b8445be55e871b55d4ec0a2d5749c@172.16.2.65:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "Aj+r5Nfc2h+Xnn0sqLv2vi3VNA8z79b+qIDnOTmZGk4Z"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "atenet",
+                  "amount": "4000000000000000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "oQ4EJa/qXz1hRnTJgLm3KGPXYvq8eEH1LkP3+mEDEsFynuQWOKXr1inD80TFFXmWRqNN2kSsSg+heTW2bb+nAAE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator5",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "tenet1yz3h6jv5r8c4fllrsp59pwc5f5fnht3fxh0dfu",
+                "validator_address": "tenetvaloper1yz3h6jv5r8c4fllrsp59pwc5f5fnht3fv54vaj",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "ydl2w2oIRKGHN75xkRMoz6TEDHCaYTc1zKCAOu8U1Rw="
+                },
+                "value": {
+                  "denom": "atenet",
+                  "amount": "100000000000000000000000"
+                }
+              }
+            ],
+            "memo": "cd45ac92164ceb542b556aa845916fba5df9c3fa@172.16.2.65:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "Auqn2FG+bjobuiSvVNcVP4SFbClG/hyKYVWCJyL7iWcX"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "atenet",
+                  "amount": "4000000000000000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "PPb3LNQPtimfl2Uk9+TW/AfmkFhZk7p7V/VLUd/tpwcjxiHQYGmiaZLpaONC12+/XfcvBlKPjF8zjoFh2UJB9gE="
+          ]
+        }
+      ]
+    },
+    "gov": {
+      "deposit_params": {
+        "max_deposit_period": "172800s",
+        "min_deposit": [
+          {
+            "amount": "100000000000000000000",
+            "denom": "atenet"
+          }
+        ]
+      },
+      "deposits": [],
+      "proposals": [],
+      "starting_proposal_id": "1",
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000"
+      },
+      "votes": [],
+      "voting_params": {
+        "voting_period": "21600s"
+      }
+    },
+    "ibc": {
+      "channel_genesis": {
+        "ack_sequences": [],
+        "acknowledgements": [],
+        "channels": [],
+        "commitments": [],
+        "next_channel_sequence": "0",
+        "receipts": [],
+        "recv_sequences": [],
+        "send_sequences": []
+      },
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "create_localhost": false,
+        "next_client_sequence": "0",
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint"
+          ]
+        }
+      },
+      "connection_genesis": {
+        "client_connection_paths": [],
+        "connections": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      }
+    },
+    "incentives": {
+      "gas_meters": [],
+      "incentives": [],
+      "params": {
+        "allocation_limit": "0.050000000000000000",
+        "enable_incentives": false,
+        "incentives_epoch_identifier": "week",
+        "reward_scaler": "1.200000000000000000"
+      }
+    },
+    "inflation": {
+      "epoch_identifier": "day",
+      "epochs_per_period": "365",
+      "params": {
+        "enable_inflation": false,
+        "exponential_calculation": {
+          "a": "300000000.000000000000000000",
+          "bonding_target": "0.660000000000000000",
+          "c": "9375000.000000000000000000",
+          "max_variance": "0.000000000000000000",
+          "r": "0.500000000000000000"
+        },
+        "inflation_distribution": {
+          "community_pool": "0.133333333000000000",
+          "staking_rewards": "0.533333334000000000",
+          "usage_incentives": "0.333333333000000000"
+        },
+        "mint_denom": "aphoton"
+      },
+      "period": "0",
+      "skipped_epochs": "0"
+    },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "params": {
+          "controller_enabled": true
+        },
+        "ports": []
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "params": {
+          "allow_messages": [
+            "*"
+          ],
+          "host_enabled": true
+        },
+        "port": "icahost"
+      }
+    },
+    "params": null,
+    "recovery": {
+      "params": {
+        "enable_recovery": false,
+        "packet_timeout_duration": "14400s"
+      }
+    },
+    "revenue": {
+      "params": {
+        "addr_derivation_cost_create": "50",
+        "developer_shares": "0.500000000000000000",
+        "enable_revenue": false
+      },
+      "revenues": []
+    },
+    "slashing": {
+      "missed_blocks": [],
+      "params": {
+        "downtime_jail_duration": "600s",
+        "min_signed_per_window": "0.500000000000000000",
+        "signed_blocks_window": "100",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.000000000000000000"
+      },
+      "signing_infos": []
+    },
+    "staking": {
+      "delegations": [],
+      "exported": false,
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "params": {
+        "bond_denom": "atenet",
+        "historical_entries": 10000,
+        "max_entries": 7,
+        "max_validators": 64,
+        "min_commission_rate": "0.050000000000000000",
+        "unbonding_time": "1296000s"
+      },
+      "redelegations": [],
+      "unbonding_delegations": [],
+      "validators": []
+    },
+    "transfer": {
+      "denom_traces": [],
+      "params": {
+        "receive_enabled": true,
+        "send_enabled": true
+      },
+      "port_id": "transfer"
+    },
+    "upgrade": {},
+    "vesting": {}
+  }
+}
