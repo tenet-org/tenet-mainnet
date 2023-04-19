@@ -1,3 +1,13 @@
+## Minimum Requirements
+To run mainnet or testnet validator nodes, you will need a machine with the following minimum hardware requirements:
+
+- 4 or more physical CPU cores
+- At least 500GB of SSD disk storage
+- At least 16GB of memory (RAM)
+- At least 100mbps network bandwidth
+
+As the usage of the blockchain grows, the server requirements may increase as well, so you should have a plan for updating your server as well.
+
 ## Initialize Chain
 
 ### 1. Clone home directory into ~/.tenetd
@@ -72,16 +82,6 @@ You should now see your validator in one of Tenet explorers. You are looking for
 
 ### Halting Your Validator
 When attempting to perform routine maintenance or planning for an upcoming coordinated upgrade, it can be useful to have your validator systematically and gracefully halt. You can achieve this by either setting the halt-height to the height at which you want your node to shutdown or by passing the `--halt-height` flag to tenetd. The node will shutdown with a zero exit code at that given height after committing the block.
-
-### Minimum Requirements
-To run mainnet or testnet validator nodes, you will need a machine with the following minimum hardware requirements:
-
-- 4 or more physical CPU cores
-- At least 500GB of SSD disk storage
-- At least 16GB of memory (RAM)
-- At least 100mbps network bandwidth
-
-As the usage of the blockchain grows, the server requirements may increase as well, so you should have a plan for updating your server as well.
 
 ## Common Problems
 #### Problem #1: My validator has voting_power: 0
