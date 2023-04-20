@@ -20,12 +20,7 @@ git clone https://github.com/tenet-org/tenet-mainnet.git ~/.tenetd
 Download binary from the latest release. Extract archive and copy binary to ```~/.tenetd```
 
 #### Optional 
-If you want to sync your node from snapshot:
-1) Enable ```statesync``` in [config](./config/config.toml)
-2) Set ```rpc_servers = "https://tendermint-1.rpc.tenet.org:443,https://tendermint-2.rpc.tenet.org:443"```
-3) Fetch last block info: ```curl -X GET https://tendermint-1.rpc.tenet.org/block | jq -r '.result.block.header.height + "\n" + .result.block_id.hash'```
-4) Subtract 5000 from this block and fetch new block (x) data: ```curl -X GET https://tendermint-1.rpc.tenet.org/block?height=x | jq -r '.result.block.header.height + "\n" + .result.block_id.hash'```
-5) Paste output to ```trust_height``` and ```trust_hash```
+If you want to sync your node from snapshot: enable ```statesync``` in [config](./config/config.toml)
 ### 3. Start and sync node
 ```bash
 tenetd start
