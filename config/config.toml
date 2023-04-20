@@ -101,10 +101,10 @@ proxy_app = "tcp://127.0.0.1:26658"
   chunk_request_timeout = "10s"
   discovery_time = "15s"
   enable = false
-  rpc_servers = ""
+  rpc_servers = "https://tendermint-1.rpc.tenet.org:443,https://tendermint-2.rpc.tenet.org:443"
   temp_dir = ""
-  trust_hash = ""
-  trust_height = 0
+  trust_hash = "5E9F211EF1D82192F5AE5DB99B0A9E6115245D625310502086D31D800AFEA2F1"
+  trust_height = 60000
   trust_period = "112h0m0s"
 
 [storage]
