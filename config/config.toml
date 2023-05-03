@@ -105,7 +105,7 @@ proxy_app = "tcp://127.0.0.1:26658"
   temp_dir = ""
   trust_hash = "5E9F211EF1D82192F5AE5DB99B0A9E6115245D625310502086D31D800AFEA2F1"
   trust_height = 60000
-  trust_period = "112h0m0s"
+  trust_period = "8760h0m0s"
 
 [storage]
   discard_abci_responses = false
