@@ -17,7 +17,7 @@ git clone https://github.com/tenet-org/tenet-mainnet.git ~/.tenetd
 ```
 
 ### 2. Download binary
-Download binary from the latest release. Extract archive.
+Download binary from the [latest release](https://github.com/tenet-org/tenet-mainnet/releases/latest). Extract archive.
 
 ### 3. Install cosmovisor
 
