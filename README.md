@@ -44,7 +44,7 @@ cp ./tenetd $DAEMON_HOME/cosmovisor/genesis/bin
 If you want to sync your node from snapshot: enable ```statesync``` in [config](./config/config.toml)
 
 ```bash
-tenetd start
+cosmovisor run start
 ```
 
 ### 6. Create Your Validator
@@ -138,7 +138,10 @@ After=network.target
 Type=simple
 User=ubuntu
 WorkingDirectory=/home/ubuntu
-ExecStart=/home/ubuntu/go/bin/tenetd start
+Environment=DAEMON_NAME=tenetd
+Environment=DAEMON_HOME=/home/tenet/.tenetd
+Environment=DAEMON_RESTART_AFTER_UPGRADE=true
+ExecStart=/home/ubuntu/go/bin/cosmovisor start
 Restart=on-failure
 RestartSec=3
 LimitNOFILE=4096
