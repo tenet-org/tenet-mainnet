@@ -17,16 +17,37 @@ git clone https://github.com/tenet-org/tenet-mainnet.git ~/.tenetd
 ```
 
 ### 2. Download binary
-Download binary from the latest release. Extract archive and copy binary to ```~/.tenetd```
+Download binary from the latest release. Extract archive.
+
+### 3. Install cosmovisor
+
+```bash
+go install github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor@latest
+```
+
+### 4. Setup cosmovisor
+
+```bash
+export DAEMON_NAME=tenetd
+export DAEMON_HOME=$HOME/.tenetd
+export DAEMON_RESTART_AFTER_UPGRADE=true
+```
+
+```
+mkdir -p $DAEMON_HOME/cosmovisor/genesis/bin
+cp ./tenetd $DAEMON_HOME/cosmovisor/genesis/bin
+```
+
+### 5. Start and sync node
 
 #### Optional 
 If you want to sync your node from snapshot: enable ```statesync``` in [config](./config/config.toml)
-### 3. Start and sync node
+
 ```bash
 tenetd start
 ```
 
-### 4. Create Your Validator
+### 6. Create Your Validator
 
 Your node consensus public key (tenetvalconspub...) can be used to create a new validator by staking atenet tokens. You can find your validator pubkey by running:
 
