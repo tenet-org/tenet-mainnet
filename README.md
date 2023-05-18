@@ -55,7 +55,7 @@ tenetd tx staking create-validator \
   --min-self-delegation="1000000" \
   --gas="auto" \
   --gas-prices="20000000000atenet" \
-  --gas-adjustment=1.5
+  --gas-adjustment=1.5 \
   --from=my_val_key
 ```
 
