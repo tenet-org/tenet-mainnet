@@ -31,7 +31,7 @@ tenetd start
 Your node consensus public key (tenetvalconspub...) can be used to create a new validator by staking atenet tokens. You can find your validator pubkey by running:
 
 ```bash
-tented tendermint show-validator
+tenetd tendermint show-validator
 ```
 
 You can generate an account for validator by running:
