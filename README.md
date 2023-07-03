@@ -20,7 +20,7 @@ git clone https://github.com/tenet-org/tenet-mainnet.git ~/.tenetd
 Download binary from the latest release. Extract archive and copy binary to ```~/.tenetd```
 
 #### Optional 
-If you want to sync your node from snapshot: enable ```statesync``` in [config](./config/config.toml)
+If you want to sync your node from snapshot: enable ```statesync``` in [config](./config/config.toml). *Warning*: you can only enable `statesync` before fist start of the executable.
 ### 3. Start and sync node
 ```bash
 tenetd start
