@@ -103,9 +103,9 @@ proxy_app = "tcp://127.0.0.1:26658"
   enable = true
   rpc_servers = "https://tendermint-1.rpc.tenet.org:443,https://tendermint-2.rpc.tenet.org:443"
   temp_dir = ""
-  trust_hash = "74842C2C354DB7DD807A53151A366E37EB31E870A94FD6C779E46ACD859407D8"
-  trust_height = 4600000
-  trust_period = "8760h0m0s"
+  trust_hash = "C57A30E69F35B189B782B07DE078FBDA32749C15291164F56F685C24A6665483"
+  trust_height = 7273000
+  trust_period = "87600h0m0s"
 
 [storage]
   discard_abci_responses = false
